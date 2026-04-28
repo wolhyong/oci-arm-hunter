@@ -1,0 +1,27 @@
+{
+  "_comment": "로컬 테스트용 설정 파일. GitHub Actions에서는 Secrets를 사용하세요.",
+
+  "tenancy_ocid":       "ocid1.tenancy.oc1..xxxxxxxxxxxx",
+  "user_ocid":          "ocid1.user.oc1..xxxxxxxxxxxx",
+  "fingerprint":        "xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx",
+  "region":             "ap-chuncheon-1",
+
+  "compartment_id":     "ocid1.compartment.oc1..xxxxxxxxxxxx",
+  "availability_domain":"gDUK:AP-CHUNCHEON-1-AD-1",
+  "subnet_id":          "ocid1.subnet.oc1.ap-chuncheon-1.xxxxxxxxxxxx",
+  "image_id":           "ocid1.image.oc1.ap-chuncheon-1.xxxxxxxxxxxx",
+  "ssh_public_key":     "ssh-rsa AAAAB3NzaC1... your_key_here",
+
+  "instance_name":      "arm-free-instance",
+  "shape":              "VM.Standard.A1.Flex",
+  "ocpus":              4,
+  "memory_gb":          24,
+  "boot_volume_gb":     50,
+
+  "retry_interval_sec": 60,
+  "max_retries":        0,
+
+  "ntfy_topic":         "",
+  "telegram_token":     "",
+  "telegram_chat_id":   ""
+}
